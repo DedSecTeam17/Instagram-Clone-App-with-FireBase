@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohamed.firebase.RecordAudio">
+
+    <Button
+        android:id="@+id/RecordAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/btn_shape"
+        android:text="@string/Record"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/HoldRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="50dp"
+        android:text="@string/hold_and_record"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shape"
+        android:textColor="#fff"
+        android:layout_margin="70dp"
+        android:text="@string/play" />
+
+</LinearLayout>

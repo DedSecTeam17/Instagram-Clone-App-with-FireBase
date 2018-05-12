@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mohamed.firebase.login">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradientbackground"
+
+        app:cardElevation="10dp"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="100dp"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <EditText
+                android:id="@+id/textEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_field"
+                android:ems="10"
+                android:hint="@string/user_email"
+                android:inputType="textEmailAddress"
+                android:padding="11dp"
+                android:textColor="#4bb6ef"
+
+                android:textColorHint="#4bb6ef" />
+
+            <EditText
+                android:id="@+id/textPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/input_field"
+
+                android:ems="10"
+                android:hint="@string/user_password"
+                android:inputType="textPassword"
+                android:padding="11dp"
+                android:textColor="#4bb6ef"
+                android:textColorHint="#4bb6ef" />
+
+
+            <Button
+                android:id="@+id/login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonstyle"
+                android:text="@string/login"
+
+                android:textColor="#fff" />
+
+            <ImageButton
+                android:id="@+id/googlebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/btn_shape"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

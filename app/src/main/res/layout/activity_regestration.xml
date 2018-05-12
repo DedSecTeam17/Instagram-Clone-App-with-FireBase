@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohamed.firebase.Regestration">
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:padding="11dp"
+        android:background="@drawable/input_field"
+        android:layout_margin="20dp"
+        android:textColor="#fff"
+        android:textColorHint="#fff"
+
+        android:hint="@string/username"
+        />
+
+    <EditText
+        android:id="@+id/Textemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+
+        android:hint="@string/Email"
+        android:inputType="textPersonName"
+        android:padding="11dp"
+        android:textColor="#4bb6ef"
+
+        android:textColorHint="#4bb6ef" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="20dp"
+        android:background="@drawable/input_field"
+        android:padding="11dp"
+        android:textColorHint="#4bb6ef"
+        android:textColor="#4bb6ef"
+
+
+
+        android:inputType="textPassword"
+        android:hint="@string/Password"
+
+        />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/Register"
+
+
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/login"
+
+
+        android:textColor="#fff" />
+</LinearLayout>

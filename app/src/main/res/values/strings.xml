@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">FireBase</string>
+    <string name="send">Send data</string>
+    <string name="child">child</string>
+    <string name="value">value</string>
+    <string name="login">log in</string>
+    <string name="take_pic">Take Picture</string>
+    <string name="Record">Record Audio</string>
+    <string name="hold_and_record">Hold And Record</string>
+    <string name="play">Play</string>
+    <string name="sitting">Sitting</string>
+    <string name="add">Add</string>
+    <string name="post">Post</string>
+    <string name="username">User Name</string>
+    <string name="Email">Email</string>
+    <string name="Password">Password</string>
+    <string name="Register">Register</string>
+    <string name="log_out">Log Out</string>
+    <string name="logical_name">enter user name</string>
+    <string name="cont">Countnue</string>
+    <string name="user_email">Email</string>
+    <string name="user_password">Password</string>
+    <string name="api_key">AIzaSyDegIb5Nj90koGAd7AEMgDZjkLjuivd4Po</string>
+    <string name="todo">TODO</string>
+    <string name="delete">Delete This Post</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="comment">COMMENT</string>
+    <string name="_500_likes">500 likes</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="menu_nav_home">Home</string>
+    <string name="menu_nav_search">Search</string>
+    <string name="menu_item_add">Add</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="post_data">est natus enim nihil est dolore omnis voluptatem numquam\\net omnis occaecati quod ullam at\\nvoluptatem error expedita pariatur\\nnihil sint nostrum voluptatem reiciendis et</string>
+    <string name="comment_data_hint">Add a comment</string>
+    <string name="time">12h</string>
+    <string name="replay">Replay</string>
+    <string name="real_name">\@mohammed_elamin</string>
+    <string name="real_comment">est natus enim nihil est dolore omnis voluptatem numquam\\net omn</string>
+
+</resources>

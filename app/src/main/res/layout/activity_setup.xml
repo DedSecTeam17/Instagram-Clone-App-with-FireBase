@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.mohamed.firebase.SetupActivity"
+    android:weightSum="1">
+
+    <ImageButton
+        android:id="@+id/choose_profile"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:layout_margin="50dp"
+
+        android:background="@null"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/art" />
+
+    <EditText
+        android:id="@+id/logical_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_field"
+        android:ems="10"
+        android:hint="@string/logical_name"
+        android:inputType="textPersonName"
+        android:padding="11dp"
+        android:textColorHint="#fff" />
+
+    <Button
+        android:id="@+id/contnue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/buttonstyle"
+        android:text="@string/cont"
+        android:textColor="#fff" />
+</LinearLayout>
